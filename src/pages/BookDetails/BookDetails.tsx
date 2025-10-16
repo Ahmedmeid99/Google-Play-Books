@@ -1,7 +1,7 @@
-import { useEffect, useState, type FunctionComponent } from "react";
+import { useEffect, type FunctionComponent } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import type { IBook } from "../../interfaces/Book";
-import { fetchBookById } from "../../services";
+// import { fetchBookById } from "../../services";
 
 type LocationState = {
     book?: IBook;
